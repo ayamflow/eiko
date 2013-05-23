@@ -1,0 +1,102 @@
+#accueil {
+    @include parallax-background("/assets/img/backgrounds/home.jpg");
+
+    .content{
+        width: 100%;
+        img.items{
+            width: 26%;
+            position: relative;
+            top: 140px;
+            &:nth-of-type(1) {
+                left: 20px;
+            }
+            &:nth-of-type(2) {
+                left: 115px;
+            }
+            &:nth-of-type(3) {
+                left: 220px;
+            }
+        }
+
+        ul li{
+            position: absolute;
+            opacity: 0.8;
+            -webkit-filter: grayscale;
+            -webkit-filter: brightness(50%);
+            z-index: 11;
+            &:nth-of-type(1) {
+                left: 0;
+                top: 0;
+            }
+            &:nth-of-type(2) {
+                left: 0;
+                top: 108px;
+            }
+            &:nth-of-type(3) {
+                left: 0;
+                top: 108px;
+            }
+            &:nth-of-type(4) {
+                left: 0;
+                top: 531px;
+            }
+            &:nth-of-type(5) {
+                left: -1px;
+                top: 592px;
+            }
+            &:nth-of-type(6) {
+                left:272px;
+                top: 642px;
+            }
+            &:nth-of-type(7) {
+                left: 590px;
+                top: 643px;
+            }
+            &:nth-of-type(8) {
+                left: 739px;
+                top: 573px;
+            }
+            &:nth-of-type(9) {
+                left: 1118px;
+                top: 411px;
+            }
+            &:nth-of-type(10) {
+                left: 1180px;
+                top: 228px;
+            }
+            &:nth-of-type(11) {
+                left: 1180px;
+                top: 0px;
+            }
+            // Parallax
+            &:nth-of-type(12) {
+                left: 109px;
+                top: 9px;
+            }
+            &:nth-of-type(13) {
+                left: 27px;
+                top: 129px;
+            }
+            &:nth-of-type(14) {
+                left: 210px;
+                top: 484px;
+            }
+            &:nth-of-type(15) {
+                left: 438px;
+                top: 114px;
+            }
+            &:nth-of-type(16) {
+                left: 448px;
+                top: 539px;
+            }
+            &:nth-of-type(17) {
+                left: 924px;
+                top: 18px;
+            }
+            &:nth-of-type(18) {
+                left: 875px;
+                top: 338px;
+            }
+        }
+    }
+}

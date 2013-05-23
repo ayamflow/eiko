@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:5c2ce7abb20d36c4da5cc65d26e397bf$ -->
+<TextureAtlas imagePath="prizeSprites.png">
+    <SubTexture name="shatter-0" x="2" y="404" width="288" height="159"/>
+    <SubTexture name="shatter-1" x="2" y="2" width="426" height="338"/>
+    <SubTexture name="shatter-2" x="824" y="2" width="179" height="394"/>
+    <SubTexture name="shatter-3" x="779" y="398" width="236" height="299"/>
+    <SubTexture name="shatter-4" x="257" y="699" width="236" height="183"/>
+    <SubTexture name="shatter-5" x="430" y="2" width="392" height="69"/>
+    <SubTexture name="shatter-6" x="324" y="342" width="103" height="61"/>
+    <SubTexture name="shatter-7" x="2" y="342" width="320" height="60"/>
+    <SubTexture name="shatter-8" x="2" y="699" width="253" height="186"/>
+    <SubTexture name="shatter-9" x="430" y="73" width="347" height="336"/>
+</TextureAtlas>

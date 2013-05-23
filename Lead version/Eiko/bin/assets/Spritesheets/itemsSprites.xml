@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:395e69fd4c73ed3f8509ffdd8ccf77c2$ -->
+<TextureAtlas imagePath="itemsSprites.png">
+    <SubTexture name="bilboquet" x="904" y="287" width="388" height="435" frameX="-54" frameY="-21" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="billes" x="2" y="2" width="462" height="265" frameX="-25" frameY="-177" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="cassette-vhs" x="804" y="724" width="368" height="341" frameX="-83" frameY="-102" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="citroen-ds" x="904" y="2" width="426" height="283" frameX="-59" frameY="-151" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="flikflak" x="1734" y="2" width="312" height="353" frameX="-105" frameY="-95" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="flipper" x="2" y="1039" width="266" height="323" frameX="-135" frameY="-105" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="gameboy" x="430" y="351" width="372" height="411" frameX="-57" frameY="-42" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="hippo" x="466" y="2" width="436" height="347" frameX="-34" frameY="-97" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="kiki" x="1680" y="600" width="366" height="343" frameX="-81" frameY="-99" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="montre-gousset" x="1734" y="357" width="308" height="241" frameX="-87" frameY="-155" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="polaroid" x="1294" y="439" width="384" height="367" frameX="-72" frameY="-110" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="tamagochi" x="2" y="666" width="368" height="371" frameX="-73" frameY="-88" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="telephone" x="1332" y="2" width="400" height="435" frameX="-42" frameY="-42" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="television" x="2" y="269" width="426" height="395" frameX="-46" frameY="-60" frameWidth="508" frameHeight="477"/>
+    <SubTexture name="toupie" x="372" y="764" width="320" height="319" frameX="-88" frameY="-98" frameWidth="508" frameHeight="477"/>
+</TextureAtlas>

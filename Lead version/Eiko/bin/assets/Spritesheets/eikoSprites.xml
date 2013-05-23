@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:22d482852f466e30d35a49e03c5d29ce$ -->
+<TextureAtlas imagePath="eikoSprites.png">
+    <SubTexture name="Games/Bilboquet/boule" x="1624" y="985" width="228" height="228"/>
+    <SubTexture name="Games/Bilboquet/corps-bilboquet" x="1722" y="1215" width="136" height="476" frameX="-316" frameY="-251" frameWidth="768" frameHeight="1024"/>
+    <SubTexture name="Games/Bilboquet/ombre_boule" x="1860" y="1460" width="103" height="188" frameX="0" frameY="-17" frameWidth="103" frameHeight="208"/>
+    <SubTexture name="Games/Pong/ball-particle-1" x="1897" y="1800" width="122" height="132"/>
+    <SubTexture name="Games/Pong/ball-particle-2" x="425" y="1878" width="125" height="115"/>
+    <SubTexture name="Games/Pong/ball-particle-3" x="1837" y="1992" width="37" height="27"/>
+    <SubTexture name="Games/Pong/ball-shadow" x="1649" y="799" width="83" height="81"/>
+    <SubTexture name="Games/Pong/ball" x="1783" y="1992" width="52" height="52"/>
+    <SubTexture name="Games/Pong/bar-1-shadow" x="1133" y="1095" width="100" height="229"/>
+    <SubTexture name="Games/Pong/bar-1" x="1993" y="2" width="37" height="179"/>
+    <SubTexture name="Games/Pong/bar-2-shadow" x="1648" y="483" width="114" height="243"/>
+    <SubTexture name="Games/Pong/bar-2" x="1965" y="1460" width="37" height="178"/>
+    <SubTexture name="Games/Telephone/0" x="1649" y="882" width="69" height="71"/>
+    <SubTexture name="Games/Telephone/1" x="697" y="1954" width="71" height="72"/>
+    <SubTexture name="Games/Telephone/2" x="311" y="1974" width="72" height="72"/>
+    <SubTexture name="Games/Telephone/3" x="1648" y="728" width="71" height="69"/>
+    <SubTexture name="Games/Telephone/4" x="625" y="1955" width="70" height="72"/>
+    <SubTexture name="Games/Telephone/5" x="237" y="1974" width="72" height="72"/>
+    <SubTexture name="Games/Telephone/6" x="163" y="1974" width="72" height="72"/>
+    <SubTexture name="Games/Telephone/7" x="552" y="1955" width="71" height="72"/>
+    <SubTexture name="Games/Telephone/8" x="89" y="1973" width="72" height="72"/>
+    <SubTexture name="Games/Telephone/9" x="770" y="1954" width="69" height="71"/>
+    <SubTexture name="Games/Telephone/buttons-bg" x="2" y="1064" width="466" height="466"/>
+    <SubTexture name="Games/Telephone/centre" x="1480" y="1721" width="265" height="263"/>
+    <SubTexture name="Games/Telephone/metal-part" x="676" y="1878" width="118" height="74"/>
+    <SubTexture name="Games/VHS/bobine" x="1854" y="997" width="155" height="153"/>
+    <SubTexture name="Games/VHS/tape" x="2009" y="1934" width="37" height="51"/>
+    <SubTexture name="Games/VHS/vhs" x="2" y="341" width="511" height="721"/>
+    <SubTexture name="UI/cancelSymbol" x="470" y="1064" width="31" height="31"/>
+    <SubTexture name="UI/cardReader" x="1137" y="1722" width="341" height="299"/>
+    <SubTexture name="UI/cardReaderBG" x="2" y="2" width="1024" height="337"/>
+    <SubTexture name="UI/cardReaderValueBG-small" x="1137" y="1340" width="295" height="380"/>
+    <SubTexture name="UI/cardReaderValueBG" x="1695" y="2" width="296" height="467"/>
+    <SubTexture name="UI/cardSelectValueBg" x="1632" y="1992" width="149" height="54"/>
+    <SubTexture name="UI/cardSelectValueBorder" x="1480" y="1986" width="150" height="54"/>
+    <SubTexture name="UI/cardSelectValueOk" x="230" y="1856" width="193" height="116"/>
+    <SubTexture name="UI/cardSelectValueStar" x="1876" y="1897" width="19" height="19"/>
+    <SubTexture name="UI/cardSelectValueStarEmpty" x="897" y="431" width="21" height="21"/>
+    <SubTexture name="UI/cardValueBg" x="1860" y="1307" width="142" height="151"/>
+    <SubTexture name="UI/cardValueBgRight" x="489" y="1496" width="325" height="380" frameX="-20" frameY="-20" frameWidth="345" frameHeight="400"/>
+    <SubTexture name="UI/cardValueBorder" x="1747" y="1693" width="148" height="202"/>
+    <SubTexture name="UI/cardValueBorder2" x="1860" y="1152" width="143" height="153"/>
+    <SubTexture name="UI/check" x="2" y="1856" width="226" height="115"/>
+    <SubTexture name="UI/checkBg" x="552" y="1878" width="122" height="75"/>
+    <SubTexture name="UI/checkSymbol" x="2009" y="1987" width="37" height="39"/>
+    <SubTexture name="UI/duelBg" x="622" y="341" width="385" height="88"/>
+    <SubTexture name="UI/duelButton" x="1876" y="1934" width="131" height="80"/>
+    <SubTexture name="UI/eikoHeader" x="622" y="800" width="1025" height="104"/>
+    <SubTexture name="UI/eikoHeaderGame" x="515" y="341" width="105" height="768"/>
+    <SubTexture name="UI/eikoLogo" x="1624" y="1215" width="92" height="91"/>
+    <SubTexture name="UI/generationBg1950" x="1764" y="471" width="270" height="374"/>
+    <SubTexture name="UI/generationBg1970" x="816" y="1480" width="319" height="374"/>
+    <SubTexture name="UI/generationBg1990" x="1434" y="1340" width="286" height="379"/>
+    <SubTexture name="UI/headerMenuBG" x="2" y="1973" width="85" height="73"/>
+    <SubTexture name="UI/interHeader" x="622" y="483" width="1024" height="177"/>
+    <SubTexture name="UI/interPolygon" x="2" y="1532" width="485" height="322"/>
+    <SubTexture name="UI/interTriangleFront" x="1237" y="985" width="385" height="353"/>
+    <SubTexture name="UI/menuBtHeader" x="770" y="2027" width="32" height="19"/>
+    <SubTexture name="UI/overlay" x="1028" y="2" width="665" height="479"/>
+    <SubTexture name="UI/resultsDark" x="622" y="1040" width="613" height="53"/>
+    <SubTexture name="UI/resultsLight" x="622" y="985" width="613" height="53"/>
+    <SubTexture name="UI/resultsTopDark" x="470" y="1111" width="329" height="383"/>
+    <SubTexture name="UI/resultsTopLight" x="801" y="1095" width="330" height="383"/>
+    <SubTexture name="UI/scoreBG" x="1747" y="1897" width="127" height="93"/>
+    <SubTexture name="UI/scoreBonus" x="622" y="662" width="1024" height="136"/>
+    <SubTexture name="UI/scoreTitleBG" x="622" y="431" width="273" height="35"/>
+    <SubTexture name="UI/timerBorder" x="1897" y="847" width="149" height="148"/>
+    <SubTexture name="UI/timerHalf" x="1897" y="1650" width="74" height="148"/>
+    <SubTexture name="UI/titleBg" x="622" y="906" width="1024" height="77"/>
+</TextureAtlas>

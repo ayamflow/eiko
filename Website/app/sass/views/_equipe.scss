@@ -1,0 +1,61 @@
+#equipe {
+    @include parallax-background("/assets/img/backgrounds/equipe.jpg");
+
+    #logos {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        text-align: right;
+    }
+
+    .content{
+        width: 56%;
+        .block{
+            width: 80%;
+            min-width: 570px;
+            margin-left: 10%;
+            height: 26%;
+            margin-bottom: -15px;
+
+            position: relative;
+
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            &:nth-of-type(1) {
+                background-image: url(/assets/img/equipe/fond-1.png);
+                img {
+                    left: 245px;
+                }
+            }
+            &:nth-of-type(2) {
+                background-image: url(/assets/img/equipe/fond-2.png);
+                .text {
+                    margin-left: 260px;
+                }
+                img {
+                    left: 20px;
+                }
+            }
+            &:nth-of-type(3) {
+                margin-top: 20px;
+                background-image: url(/assets/img/equipe/fond-3.png);
+                .text{
+                    padding-top: 20px;
+                    width: 81%;
+                }
+            }
+
+            .text{
+                // float: left;
+                padding-top: 37px;
+                padding-left: 50px;
+            }
+            img{
+                position: absolute;
+                top: -20px;
+            }
+        }
+    }
+}

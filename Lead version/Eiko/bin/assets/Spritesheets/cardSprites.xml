@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:d283140e60ea9b624378f9dc33370bbe$ -->
+<TextureAtlas imagePath="cardSprites.png">
+    <SubTexture name="1950/bilboquet" x="306" y="626" width="150" height="206"/>
+    <SubTexture name="1950/billes" x="306" y="418" width="150" height="206"/>
+    <SubTexture name="1950/montre-gousset" x="2" y="2" width="150" height="207"/>
+    <SubTexture name="1950/television" x="306" y="210" width="150" height="206"/>
+    <SubTexture name="1950/toupie" x="154" y="626" width="150" height="206"/>
+    <SubTexture name="1970/citroen-ds" x="154" y="418" width="150" height="206"/>
+    <SubTexture name="1970/flipper" x="154" y="210" width="150" height="206"/>
+    <SubTexture name="1970/kiki" x="762" y="2" width="150" height="206"/>
+    <SubTexture name="1970/polaroid" x="610" y="2" width="150" height="206"/>
+    <SubTexture name="1970/telephone" x="458" y="2" width="150" height="206"/>
+    <SubTexture name="1990/cassette-vhs" x="306" y="2" width="150" height="206"/>
+    <SubTexture name="1990/flikflak" x="154" y="2" width="150" height="206"/>
+    <SubTexture name="1990/gameboy" x="2" y="627" width="150" height="206"/>
+    <SubTexture name="1990/hippo" x="2" y="419" width="150" height="206"/>
+    <SubTexture name="1990/tamagochi" x="2" y="211" width="150" height="206"/>
+</TextureAtlas>

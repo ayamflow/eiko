@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "HelveticaLTBold";
+  src: url('../assets/fonts/helveticaltstdbold.ttf') format('truetype'), url('../assets/fonts/helveticaltstdbold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "BodoniBook";
+  src: url('../assets/fonts/BodoniStd-Book.ttf') format('truetype'), url('../assets/fonts/BodoniStd-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "BodoniBookItalic";
+  src: url('../assets/fonts/BodoniStd-BookItalic.ttf') format('truetype'), url('../assets/fonts/BodoniStd-BookItalic.otf') format('opentype');
+}

@@ -1,0 +1,111 @@
+header {
+    width: 100%;
+    height: 65px;
+    @include importImage("layout/header.png");
+    background-position: left top;
+    background-size: 100%;
+
+    position: fixed;
+    height: 65px;
+    left: 0;
+    z-index: 100;
+    // overflow: hidden;
+
+    @include transition(top 0.4s ease-out);
+
+    .logo {
+        @include transition(all 0.2s ease-out);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    &.light{
+        height: 75px;
+        top: 0px;
+        &.concept{
+            background-position: left -79px;
+        }
+        /* &.actu{
+            background-position: left -154px;
+        }
+        &.equipe{
+            background-position: left -229px;
+        } */
+        .logo{
+            width: 85px;
+            height: 85px;
+            margin-left: -43px;
+            margin-top: -33px;
+            background-image: url(/assets/img/layout/logo-light.png);
+        }
+        ul{
+            width: 600px;
+            li {
+                margin-left: 40px;
+                &:nth-of-type(3) {
+                    margin-left: 220px;
+                }
+            }
+        }
+    }
+
+    &.big{
+        top: 65px;
+        .logo{
+            width: 316px;
+            height: 217px;
+            margin-left: -158px;
+            margin-top: -90px;
+            background-image: url(/assets/img/layout/logo-big.png);
+        }
+        ul{
+            width: 800px;
+            li {
+                margin-left: 60px;
+                 &:nth-of-type(3) {
+                    margin-left: 360px;
+                }
+            }
+        }
+    }
+
+    ul{
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        font-weight: normal;
+        @include applyFont('Aldo');
+        font-size: 22px;
+
+        li{
+            line-height: 65px;
+            float: left;
+            text-transform: uppercase;
+            position: relative;
+
+            &:hover .dot{
+                    border: 2px solid white;
+                }
+
+            .dot{
+                @include transition(border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s);
+                width: 13px;
+                height: 13px;
+                @include border-radius(10px);
+                border: 1px solid white;
+                @include box-sizing(border-box);
+                overflow: hidden;
+                position: absolute;
+                top: 26px;
+                left: -24px;
+
+                &.selected{
+                    border: 6px solid white;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

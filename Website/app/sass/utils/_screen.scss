@@ -1,0 +1,30 @@
+$small-medium: 769px;	 		// 2cols
+$medium: 860px;	 				// 2cols big
+$medium-large: 1210px; 			// 3cols
+$large: 1280px;
+$xlarge: 1450px; 				// 3cols big
+
+$br-two-cols: 687px 1250px;
+
+// To separate devices
+$bp-phone: 0px 320px;
+$bp-tablet: 321px 768px;
+$bp-mobile: 0px 768px; // phones and tablets
+$bp-netbook: 769px 1280px;
+$bp-desktop: 1281px;
+
+// Screen height (mainly for the homepage)
+$bp-big-height: height 901px 9999px;
+$bp-medium-height: height 801px 900px;
+$bp-small-height: height 769px 800px;
+$bp-extra-small-height: height 0 768px;
+
+$bp-small: 0px 380px;
+$bp-small-medium: 381px 687px;
+$bp-medium: 688px 985px;
+$bp-medium-large: 986px 1280px;
+$bp-large: 1281px 1450px;
+$bp-extra-large: 1451px;
+$bp-extra-large-limit: 1451px 1700px;
+$bp-extra-extra-large: 1701px;
+

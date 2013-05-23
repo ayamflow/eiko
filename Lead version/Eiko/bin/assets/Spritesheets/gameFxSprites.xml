@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:9dcf97fd6199d14f8b84899a74cbb30d$ -->
+<TextureAtlas imagePath="gameFxSprites.png">
+    <SubTexture name="shatter1" x="729" y="927" width="277" height="200"/>
+    <SubTexture name="shatter2" x="729" y="1267" width="226" height="165"/>
+    <SubTexture name="shatter3" x="505" y="451" width="492" height="474"/>
+    <SubTexture name="shatter4" x="398" y="927" width="329" height="399"/>
+    <SubTexture name="shatter5" x="536" y="2" width="481" height="447"/>
+    <SubTexture name="shatter6" x="2" y="259" width="501" height="268"/>
+    <SubTexture name="shatter7" x="2" y="2" width="532" height="255"/>
+    <SubTexture name="shatter8" x="729" y="1129" width="243" height="136"/>
+    <SubTexture name="shatter9" x="2" y="529" width="394" height="549"/>
+</TextureAtlas>

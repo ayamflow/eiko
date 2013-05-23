@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:8d50b5d44cd73b2ca9607bb312fa8f17$ -->
+<TextureAtlas imagePath="fxSprites.png">
+    <SubTexture name="shattered1" x="558" y="224" width="366" height="223"/>
+    <SubTexture name="shattered2" x="2" y="791" width="219" height="488"/>
+    <SubTexture name="shattered3" x="558" y="2" width="408" height="220"/>
+    <SubTexture name="shattered4" x="2" y="2" width="554" height="551"/>
+    <SubTexture name="shattered5" x="223" y="791" width="201" height="229"/>
+    <SubTexture name="shattered6" x="558" y="449" width="330" height="227"/>
+    <SubTexture name="shattered7" x="2" y="555" width="550" height="234"/>
+    <SubTexture name="shattered8" x="554" y="678" width="271" height="367"/>
+</TextureAtlas>

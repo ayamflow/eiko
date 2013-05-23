@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:ba221b2b982b8dadfb38ac5cdb46f41c$ -->
+<TextureAtlas imagePath="duelFx.png">
+    <SubTexture name="shard1" x="369" y="280" width="102" height="315"/>
+    <SubTexture name="shard10" x="2" y="280" width="100" height="205"/>
+    <SubTexture name="shard11" x="104" y="280" width="100" height="289"/>
+    <SubTexture name="shard12" x="676" y="103" width="135" height="173"/>
+    <SubTexture name="shard2" x="2" y="2" width="106" height="50"/>
+    <SubTexture name="shard3" x="473" y="280" width="148" height="454"/>
+    <SubTexture name="shard4" x="813" y="103" width="148" height="175"/>
+    <SubTexture name="shard5" x="289" y="103" width="385" height="135"/>
+    <SubTexture name="shard6" x="110" y="2" width="467" height="67"/>
+    <SubTexture name="shard7" x="579" y="2" width="273" height="99"/>
+    <SubTexture name="shard8" x="2" y="103" width="285" height="135"/>
+    <SubTexture name="shard9" x="206" y="280" width="161" height="298"/>
+    <SubTexture name="slash" x="623" y="280" width="191" height="678"/>
+</TextureAtlas>

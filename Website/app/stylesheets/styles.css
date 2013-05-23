@@ -1,0 +1,973 @@
+/* line 17, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Aldo";
+  src: url('../assets/fonts/Aldo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Dekar";
+  src: url('../assets/fonts/Dekar.otf') format('opentype');
+}
+
+/* line 1, ../sass/utils/_scrollbar.scss */
+.scrollbar-size {
+  width: 100px;
+  height: 100px;
+  overflow: scroll;
+  position: absolute;
+  top: -9999px;
+}
+
+/* html {
+    @include transform(translate3d(0, 0, 0));
+} */
+/* line 8, ../sass/views/layout/_layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-smooth: always;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 16, ../sass/views/layout/_layout.scss */
+body {
+  background-color: black;
+  overflow-y: scroll;
+  font-family: "Aldo", Garamond, Georgia, serif;
+  font-weight: normal;
+  color: white;
+}
+
+/* line 24, ../sass/views/layout/_layout.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/views/layout/_layout.scss */
+h1 {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* line 36, ../sass/views/layout/_layout.scss */
+p {
+  font-size: 15px;
+  line-height: 19px;
+  color: white;
+}
+
+/* line 42, ../sass/views/layout/_layout.scss */
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 47, ../sass/views/layout/_layout.scss */
+.background {
+  /*width: 100%;
+  height: 100%;*/
+  /* position: fixed; */
+}
+
+/* line 54, ../sass/views/layout/_layout.scss */
+.screen {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 64, ../sass/views/layout/_layout.scss */
+.content {
+  width: 980px;
+  height: 100%;
+  margin: auto;
+  padding-top: 8%;
+}
+
+/* line 71, ../sass/views/layout/_layout.scss */
+.clear {
+  clear: both;
+}
+
+/* line 75, ../sass/views/layout/_layout.scss */
+::selection {
+  background: #000000;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+
+/* line 1, ../sass/views/layout/_header.scss */
+header {
+  width: 100%;
+  height: 65px;
+  background-image: url('../assets/img/layout/header.png?1368481188');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  position: fixed;
+  height: 65px;
+  left: 0;
+  z-index: 100;
+  -webkit-transition: top 0.4s ease-out;
+  -moz-transition: top 0.4s ease-out;
+  -o-transition: top 0.4s ease-out;
+  transition: top 0.4s ease-out;
+}
+/* line 16, ../sass/views/layout/_header.scss */
+header .logo {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+/* line 24, ../sass/views/layout/_header.scss */
+header.light {
+  height: 75px;
+  top: 0px;
+  /* &.actu{
+      background-position: left -154px;
+  }
+  &.equipe{
+      background-position: left -229px;
+  } */
+}
+/* line 27, ../sass/views/layout/_header.scss */
+header.light.concept {
+  background-position: left -79px;
+}
+/* line 36, ../sass/views/layout/_header.scss */
+header.light .logo {
+  width: 85px;
+  height: 85px;
+  margin-left: -43px;
+  margin-top: -33px;
+  background-image: url(/assets/img/layout/logo-light.png);
+}
+/* line 43, ../sass/views/layout/_header.scss */
+header.light ul {
+  width: 600px;
+}
+/* line 45, ../sass/views/layout/_header.scss */
+header.light ul li {
+  margin-left: 40px;
+}
+/* line 47, ../sass/views/layout/_header.scss */
+header.light ul li:nth-of-type(3) {
+  margin-left: 220px;
+}
+/* line 54, ../sass/views/layout/_header.scss */
+header.big {
+  top: 65px;
+}
+/* line 56, ../sass/views/layout/_header.scss */
+header.big .logo {
+  width: 316px;
+  height: 217px;
+  margin-left: -158px;
+  margin-top: -90px;
+  background-image: url(/assets/img/layout/logo-big.png);
+}
+/* line 63, ../sass/views/layout/_header.scss */
+header.big ul {
+  width: 800px;
+}
+/* line 65, ../sass/views/layout/_header.scss */
+header.big ul li {
+  margin-left: 60px;
+}
+/* line 67, ../sass/views/layout/_header.scss */
+header.big ul li:nth-of-type(3) {
+  margin-left: 360px;
+}
+/* line 74, ../sass/views/layout/_header.scss */
+header ul {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Aldo", Garamond, Georgia, serif;
+  font-weight: normal;
+  font-size: 22px;
+}
+/* line 82, ../sass/views/layout/_header.scss */
+header ul li {
+  line-height: 65px;
+  float: left;
+  text-transform: uppercase;
+  position: relative;
+}
+/* line 88, ../sass/views/layout/_header.scss */
+header ul li:hover .dot {
+  border: 2px solid white;
+}
+/* line 92, ../sass/views/layout/_header.scss */
+header ul li .dot {
+  -webkit-transition: border 0.3s ease-in-out, background 0.2s ease-in-out;
+  -webkit-transition-delay: 0s, 0.2s;
+  -moz-transition: border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s;
+  -o-transition: border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s;
+  transition: border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s;
+  width: 13px;
+  height: 13px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  top: 26px;
+  left: -24px;
+}
+/* line 104, ../sass/views/layout/_header.scss */
+header ul li .dot.selected {
+  border: 6px solid white;
+  background-color: white;
+}
+
+/* line 1, ../sass/views/_accueil.scss */
+#accueil {
+  background: url("/assets/img/backgrounds/home.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 4, ../sass/views/_accueil.scss */
+#accueil .content {
+  width: 100%;
+}
+/* line 6, ../sass/views/_accueil.scss */
+#accueil .content img.items {
+  width: 26%;
+  position: relative;
+  top: 140px;
+}
+/* line 10, ../sass/views/_accueil.scss */
+#accueil .content img.items:nth-of-type(1) {
+  left: 20px;
+}
+/* line 13, ../sass/views/_accueil.scss */
+#accueil .content img.items:nth-of-type(2) {
+  left: 115px;
+}
+/* line 16, ../sass/views/_accueil.scss */
+#accueil .content img.items:nth-of-type(3) {
+  left: 220px;
+}
+/* line 21, ../sass/views/_accueil.scss */
+#accueil .content ul li {
+  position: absolute;
+  opacity: 0.8;
+  -webkit-filter: grayscale;
+  -webkit-filter: brightness(50%);
+  z-index: 11;
+}
+/* line 27, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+/* line 31, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(2) {
+  left: 0;
+  top: 108px;
+}
+/* line 35, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(3) {
+  left: 0;
+  top: 108px;
+}
+/* line 39, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(4) {
+  left: 0;
+  top: 531px;
+}
+/* line 43, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(5) {
+  left: -1px;
+  top: 592px;
+}
+/* line 47, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(6) {
+  left: 272px;
+  top: 642px;
+}
+/* line 51, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(7) {
+  left: 590px;
+  top: 643px;
+}
+/* line 55, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(8) {
+  left: 739px;
+  top: 573px;
+}
+/* line 59, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(9) {
+  left: 1118px;
+  top: 411px;
+}
+/* line 63, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(10) {
+  left: 1180px;
+  top: 228px;
+}
+/* line 67, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(11) {
+  left: 1180px;
+  top: 0px;
+}
+/* line 72, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(12) {
+  left: 109px;
+  top: 9px;
+}
+/* line 76, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(13) {
+  left: 27px;
+  top: 129px;
+}
+/* line 80, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(14) {
+  left: 210px;
+  top: 484px;
+}
+/* line 84, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(15) {
+  left: 438px;
+  top: 114px;
+}
+/* line 88, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(16) {
+  left: 448px;
+  top: 539px;
+}
+/* line 92, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(17) {
+  left: 924px;
+  top: 18px;
+}
+/* line 96, ../sass/views/_accueil.scss */
+#accueil .content ul li:nth-of-type(18) {
+  left: 875px;
+  top: 338px;
+}
+
+/* line 1, ../sass/views/_concept.scss */
+#concept {
+  padding: 0;
+  background: url("/assets/img/backgrounds/concept-1.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 25, ../sass/utils/_mixin.scss */
+#concept::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+}
+/* line 5, ../sass/views/_concept.scss */
+#concept .content {
+  width: 960px;
+  padding-top: 6%;
+}
+/* line 10, ../sass/views/_concept.scss */
+#concept .slide-wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* line 15, ../sass/views/_concept.scss */
+#concept .slide-inner {
+  height: 100%;
+}
+/* line 19, ../sass/views/_concept.scss */
+#concept .thumbs {
+  position: absolute;
+  z-index: 20;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -52px;
+}
+/* line 25, ../sass/views/_concept.scss */
+#concept .thumbs li {
+  -webkit-transition: border 0.3s ease-in-out, background 0.2s ease-in-out;
+  -webkit-transition-delay: 0s, 0.2s;
+  -moz-transition: border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s;
+  -o-transition: border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s;
+  transition: border 0.3s ease-in-out, background 0.2s ease-in-out 0.2s;
+  width: 13px;
+  height: 13px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 16px;
+  height: 15px;
+  overflow: hidden;
+  background-position: left top;
+  float: left;
+  margin: 5px;
+}
+/* line 41, ../sass/views/_concept.scss */
+#concept .thumbs li:hover {
+  cursor: pointer;
+  border: 2px solid white;
+}
+/* line 46, ../sass/views/_concept.scss */
+#concept .thumbs li.current {
+  border: 6px solid white;
+  background-color: white;
+}
+/* line 53, ../sass/views/_concept.scss */
+#concept .concept-diapo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 59, ../sass/views/_concept.scss */
+#concept .slide {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* line 62, ../sass/views/_concept.scss */
+#concept .slide .content {
+  position: relative;
+}
+/* line 69, ../sass/views/_concept.scss */
+#concept .slide:nth-child(1) img {
+  width: 850px;
+  margin-left: 45px;
+}
+/* line 74, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) {
+  background: url("/assets/img/backgrounds/concept-2.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 77, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) .block {
+  background-color: rgba(205, 117, 61, 0.8);
+  margin-right: 30px;
+  margin-top: 100px;
+  position: relative;
+  width: 300px;
+  height: 385px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+}
+/* line 82, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) .block:nth-child(3) {
+  margin-right: 0;
+}
+/* line 83, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) .block h1 {
+  font-size: 20px;
+  font-family: "Aldo", Garamond, Georgia, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px;
+  background-color: rgba(175, 85, 37, 0.8);
+  border-radius: 10px 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+/* line 93, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) .block p {
+  text-align: left;
+  font-size: 15px;
+  font-family: "Aldo", Garamond, Georgia, serif;
+  font-weight: normal;
+  margin: 5px 20px;
+  width: 260px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+}
+/* line 103, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) .block img {
+  margin-top: 30px;
+}
+/* line 105, ../sass/views/_concept.scss */
+#concept .slide:nth-child(2) .block img:nth-child(2) {
+  margin-top: 10px;
+}
+/* line 115, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) {
+  background: url("/assets/img/backgrounds/concept-3.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 118, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) .block {
+  background-color: rgba(191, 55, 37, 0.8);
+  margin-right: 30px;
+  margin-top: 100px;
+  position: relative;
+  width: 300px;
+  height: 335px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+}
+/* line 123, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) .block:nth-child(3) {
+  margin-right: 0;
+}
+/* line 125, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) .block:nth-child(3) img {
+  margin-top: 75px;
+}
+/* line 129, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) .block h1 {
+  font-size: 20px;
+  font-family: "Aldo", Garamond, Georgia, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px;
+  background-color: rgba(164, 26, 16, 0.8);
+  border-radius: 10px 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+/* line 139, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) .block p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Aldo", Garamond, Georgia, serif;
+  font-weight: normal;
+  margin: 5px auto;
+  width: 240px;
+}
+/* line 140, ../sass/views/_concept.scss */
+#concept .slide:nth-child(3) .block p:nth-of-type(1) {
+  margin-top: 20px;
+}
+/* line 156, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) {
+  background: url("/assets/img/backgrounds/concept-4.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 159, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) img.ipad {
+  margin-left: 35px;
+  position: relative;
+  z-index: 10;
+}
+/* line 168, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) .arrow {
+  width: 89px;
+  height: 77px;
+  position: absolute;
+  top: 50%;
+  margin-top: -38px;
+  left: 90%;
+  background: url(/assets/img/concept/slider-arrow.png);
+  z-index: 15;
+}
+/* line 177, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) .arrow.left {
+  left: 0;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: -89px;
+}
+/* line 184, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) .ipad-wrapper {
+  position: absolute;
+  overflow: hidden;
+  top: 227px;
+  width: 455px;
+  height: 334px;
+  left: 238px;
+}
+/* line 193, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) .ipad-inner {
+  width: 100%;
+}
+/* line 25, ../sass/utils/_mixin.scss */
+#concept .slide:nth-child(4) ul::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+}
+/* line 199, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) ul li {
+  float: left;
+  width: 455px;
+}
+/* line 202, ../sass/views/_concept.scss */
+#concept .slide:nth-child(4) ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/views/_actu.scss */
+#actu {
+  background: url("/assets/img/backgrounds/actu.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 4, ../sass/views/_actu.scss */
+#actu .content {
+  width: 45%;
+  min-width: 720px;
+}
+/* line 9, ../sass/views/_actu.scss */
+#actu .block {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 18%;
+  min-height: 176px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 25, ../sass/utils/_mixin.scss */
+#actu .block::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+}
+/* line 20, ../sass/views/_actu.scss */
+#actu .block img {
+  float: left;
+  margin: 0 50px;
+}
+/* line 25, ../sass/views/_actu.scss */
+#actu .block .text {
+  float: left;
+  width: 470px;
+}
+/* line 30, ../sass/views/_actu.scss */
+#actu .block:nth-of-type(1) {
+  background-image: url(/assets/img/actu/fond-1.png);
+  padding-top: 30px;
+}
+/* line 34, ../sass/views/_actu.scss */
+#actu .block:nth-of-type(2) {
+  background-image: url(/assets/img/actu/fond-2.png);
+  padding-top: 35px;
+}
+/* line 38, ../sass/views/_actu.scss */
+#actu .block:nth-of-type(3) {
+  background-image: url(/assets/img/actu/fond-3.png);
+  padding-top: 40px;
+}
+
+/* line 1, ../sass/views/_equipe.scss */
+#equipe {
+  background: url("/assets/img/backgrounds/equipe.jpg") center 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 4, ../sass/views/_equipe.scss */
+#equipe #logos {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  text-align: right;
+}
+/* line 11, ../sass/views/_equipe.scss */
+#equipe .content {
+  width: 56%;
+}
+/* line 13, ../sass/views/_equipe.scss */
+#equipe .content .block {
+  width: 80%;
+  min-width: 570px;
+  margin-left: 10%;
+  height: 26%;
+  margin-bottom: -15px;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 26, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(1) {
+  background-image: url(/assets/img/equipe/fond-1.png);
+}
+/* line 28, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(1) img {
+  left: 245px;
+}
+/* line 32, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(2) {
+  background-image: url(/assets/img/equipe/fond-2.png);
+}
+/* line 34, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(2) .text {
+  margin-left: 260px;
+}
+/* line 37, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(2) img {
+  left: 20px;
+}
+/* line 41, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(3) {
+  margin-top: 20px;
+  background-image: url(/assets/img/equipe/fond-3.png);
+}
+/* line 44, ../sass/views/_equipe.scss */
+#equipe .content .block:nth-of-type(3) .text {
+  padding-top: 20px;
+  width: 81%;
+}
+/* line 50, ../sass/views/_equipe.scss */
+#equipe .content .block .text {
+  padding-top: 37px;
+  padding-left: 50px;
+}
+/* line 55, ../sass/views/_equipe.scss */
+#equipe .content .block img {
+  position: absolute;
+  top: -20px;
+}
+
+/* line 178, home/shatter/*.png */
+.shatter-sprite, .shatter-fragment-1, .shatter-fragment-10, .shatter-fragment-11, .shatter-fragment-12, .shatter-fragment-13, .shatter-fragment-14, .shatter-fragment-15, .shatter-fragment-16, .shatter-fragment-17, .shatter-fragment-18, .shatter-fragment-2, .shatter-fragment-3, .shatter-fragment-4, .shatter-fragment-5, .shatter-fragment-6, .shatter-fragment-7, .shatter-fragment-8, .shatter-fragment-9 {
+  background: url('../assets/img/home/shatter-s6c8b14d1f7.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-1 {
+  background-position: 0 -3330px;
+  height: 151px;
+  width: 172px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-10 {
+  background-position: 0 -1834px;
+  height: 336px;
+  width: 100px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-11 {
+  background-position: 0 -2722px;
+  height: 293px;
+  width: 100px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-12 {
+  background-position: 0 -572px;
+  height: 149px;
+  width: 279px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-13 {
+  background-position: 0 -327px;
+  height: 245px;
+  width: 366px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-14 {
+  background-position: 0 -1172px;
+  height: 188px;
+  width: 180px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-15 {
+  background-position: 0 -918px;
+  height: 254px;
+  width: 208px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-16 {
+  background-position: 0 -200px;
+  height: 127px;
+  width: 462px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-17 {
+  background-position: 0 -721px;
+  height: 197px;
+  width: 288px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-18 {
+  background-position: 0 0;
+  height: 200px;
+  width: 377px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-2 {
+  background-position: 0 -3015px;
+  height: 315px;
+  width: 122px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-3 {
+  background-position: 0 -1360px;
+  height: 474px;
+  width: 126px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-4 {
+  background-position: 0 -3549px;
+  height: 175px;
+  width: 126px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-5 {
+  background-position: 0 -2604px;
+  height: 118px;
+  width: 385px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-6 {
+  background-position: 0 -3481px;
+  height: 68px;
+  width: 467px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-7 {
+  background-position: 0 -3724px;
+  height: 67px;
+  width: 334px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-8 {
+  background-position: 0 -2468px;
+  height: 136px;
+  width: 453px;
+}
+
+/* line 60, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.shatter-fragment-9 {
+  background-position: 0 -2170px;
+  height: 298px;
+  width: 161px;
+}

@@ -1,0 +1,45 @@
+@mixin applyFont($face) {
+
+	@if $face == 'Aldo' {
+			font-family: "Aldo", Garamond, Georgia, serif;
+			font-weight: normal;
+	}
+	@else if $face == 'Dekar' {
+			font-family: "Dekar", Georgia, serif;
+			font-style: italic;
+			font-weight: normal;
+	}
+}
+
+@mixin parallax-background($url) {
+	background: url($url) center 0 no-repeat fixed;
+	//background-size: 1366px 768px;
+	// background-size: 1366px 700px;
+	background-repeat: no-repeat;
+	// background: url($url);
+	background-size: cover;
+	// background-size: 100%;
+}
+
+@mixin clearfix{
+	&::after{
+		content: "";
+		width: 0;
+		height: 0;
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin importImage($url) {
+	@include background-image(image-url($url));
+	background-repeat: no-repeat;
+}
+
+@mixin breakpoint-multiple($list) {
+	@each $bp in $list {
+		@include breakpoint($bp) {
+			@content;
+		}
+	}
+}
