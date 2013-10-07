@@ -1,6 +1,7 @@
 Eiko
 =====
 Tangible two-player card game for iPad, developped in AS3 and Starling. DIY tangible cards.
+The [website](http://lecube.gobelins.fr/2014/g5/) has been developped with AngularJS and greensock's TimelineMax and TweenMax.
 
 ##Context
 Eiko is an answer to a brief by [Le Cube](http://lecube.com), asking us to design an iPad application aiming to embrace the intergenerational links. We chose to focus on memories.
